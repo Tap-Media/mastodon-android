@@ -368,7 +368,7 @@ public class AccountSession{
 	}
 
 	public boolean isEligibleForDonations(){
-		return ("mastodon.social".equalsIgnoreCase(domain) || "mastodon.online".equalsIgnoreCase(domain)) && self.createdAt.isBefore(Instant.now().minus(MIN_DAYS_ACCOUNT_AGE_FOR_DONATIONS, ChronoUnit.DAYS));
+		return ("mastodon.honviet247.com".equalsIgnoreCase(domain) || "mastodon.online".equalsIgnoreCase(domain)) && self.createdAt.isBefore(Instant.now().minus(MIN_DAYS_ACCOUNT_AGE_FOR_DONATIONS, ChronoUnit.DAYS));
 	}
 
 	public int getDonationSeed(){

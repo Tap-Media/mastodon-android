@@ -57,7 +57,7 @@
 				<action android:name="android.intent.action.VIEW"/>
 				<category android:name="android.intent.category.BROWSABLE"/>
 				<category android:name="android.intent.category.DEFAULT"/>
-				<data android:scheme="https" android:host="mastodon.social" android:pathPrefix="/@"/>
+				<data android:scheme="https" android:host="mastodon.honviet247.com" android:pathPrefix="/@"/>
 			</intent-filter>
 			<intent-filter android:autoVerify="true">
 				<action android:name="android.intent.action.VIEW"/>

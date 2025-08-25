@@ -80,7 +80,7 @@ public class InstanceChooserLoginFragment extends InstanceCatalogFragment{
 		}
 		if(filteredData.isEmpty()){
 			for(CatalogInstance inst:data){
-				if(inst.normalizedDomain.equals("mastodon.social") || inst.normalizedDomain.equals("mastodon.online")){
+				if(inst.normalizedDomain.equals("mastodon.honviet247.com") || inst.normalizedDomain.equals("mastodon.online")){
 					filteredData.add(inst);
 				}
 			}

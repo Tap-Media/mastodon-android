@@ -161,7 +161,7 @@ public class StoreScreenshotsGenerator{
 						}catch(Exception ignore){}
 					}
 				})
-				.execNoAuth("mastodon.social");
+				.execNoAuth("mastodon.honviet247.com");
 		barrier.await();
 		Assert.assertNotNull(_instance[0]);
 
